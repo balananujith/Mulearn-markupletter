@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Reduced margin for better mobile view */
+    line-height: 1.6; /* Improved line spacing for readability */
+    text-align: justify; /* Justify text */
+}
+
+.receiver-info, .sender-info {
+    margin-bottom: 20px; /* Added space between sections */
+}
+
+.receiver-info {
+    text-align: right;
+}
+
+.sender-info {
+    margin-top: 20px;
+}
+
+.subject {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.body {
+    margin-top: 20px;
+}
+
+.closing {
+    margin-top: 40px;
+}
+
+.receiver-info .name, .sender-info .name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.receiver-info .address, .sender-info .address {
+    font-style: italic;
+}
+
+.indented {
+    margin-left: 20px; /* Adjusted for better indentation */
+}
+
+em {
+    font-style: italic;
+}
